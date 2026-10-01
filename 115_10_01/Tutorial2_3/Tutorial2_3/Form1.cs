@@ -16,5 +16,20 @@ namespace Tutorial2_3
         {
             InitializeComponent();
         }
+
+        private void italianButton_Click(object sender, EventArgs e)
+        {
+            translateLabel.Text = "Buongiorno";
+        }
+
+        private void spanishButton_Click(object sender, EventArgs e)
+        {
+            translateLabel.Text = "Buenos días";
+        }
+
+        private void germanButton_Click(object sender, EventArgs e)
+        {
+            translateLabel.Text = "Guten Morgen";
+        }
     }
 }
