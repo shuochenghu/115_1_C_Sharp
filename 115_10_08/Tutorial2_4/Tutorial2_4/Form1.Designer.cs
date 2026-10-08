@@ -41,9 +41,10 @@
             // finlandPictureBox
             // 
             this.finlandPictureBox.Image = global::Tutorial2_4.Properties.Resources.Finland;
-            this.finlandPictureBox.Location = new System.Drawing.Point(102, 206);
+            this.finlandPictureBox.Location = new System.Drawing.Point(170, 186);
+            this.finlandPictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.finlandPictureBox.Name = "finlandPictureBox";
-            this.finlandPictureBox.Size = new System.Drawing.Size(324, 209);
+            this.finlandPictureBox.Size = new System.Drawing.Size(216, 139);
             this.finlandPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.finlandPictureBox.TabIndex = 0;
             this.finlandPictureBox.TabStop = false;
@@ -52,9 +53,10 @@
             // francePictureBox
             // 
             this.francePictureBox.Image = global::Tutorial2_4.Properties.Resources.France;
-            this.francePictureBox.Location = new System.Drawing.Point(486, 206);
+            this.francePictureBox.Location = new System.Drawing.Point(520, 186);
+            this.francePictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.francePictureBox.Name = "francePictureBox";
-            this.francePictureBox.Size = new System.Drawing.Size(336, 209);
+            this.francePictureBox.Size = new System.Drawing.Size(224, 139);
             this.francePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.francePictureBox.TabIndex = 1;
             this.francePictureBox.TabStop = false;
@@ -63,9 +65,10 @@
             // germanPictureBox
             // 
             this.germanPictureBox.Image = global::Tutorial2_4.Properties.Resources.Germany;
-            this.germanPictureBox.Location = new System.Drawing.Point(879, 206);
+            this.germanPictureBox.Location = new System.Drawing.Point(896, 174);
+            this.germanPictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.germanPictureBox.Name = "germanPictureBox";
-            this.germanPictureBox.Size = new System.Drawing.Size(336, 209);
+            this.germanPictureBox.Size = new System.Drawing.Size(224, 139);
             this.germanPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.germanPictureBox.TabIndex = 2;
             this.germanPictureBox.TabStop = false;
@@ -75,9 +78,10 @@
             // 
             this.countryLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.countryLabel.Font = new System.Drawing.Font("新細明體", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.countryLabel.Location = new System.Drawing.Point(445, 475);
+            this.countryLabel.Location = new System.Drawing.Point(520, 404);
+            this.countryLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.countryLabel.Name = "countryLabel";
-            this.countryLabel.Size = new System.Drawing.Size(377, 114);
+            this.countryLabel.Size = new System.Drawing.Size(251, 76);
             this.countryLabel.TabIndex = 3;
             this.countryLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -85,7 +89,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("新細明體", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(210, 41);
+            this.label1.Location = new System.Drawing.Point(140, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(920, 56);
             this.label1.TabIndex = 4;
@@ -93,14 +98,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1264, 675);
+            this.ClientSize = new System.Drawing.Size(1251, 561);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.countryLabel);
             this.Controls.Add(this.germanPictureBox);
             this.Controls.Add(this.francePictureBox);
             this.Controls.Add(this.finlandPictureBox);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.finlandPictureBox)).EndInit();
