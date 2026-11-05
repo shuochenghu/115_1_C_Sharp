@@ -20,7 +20,7 @@ namespace Loan_Qualifier
 
         private void checkButton_Click(object sender, EventArgs e)
         {
-            const decimal MIN_SALARY = 40000m; // 最低年薪要求
+            const decimal MIN_SALARY = 400000m; // 最低年薪要求
             const int MIN_YEARS = 2; // 最低工作年資要求
 
             decimal salary;
@@ -32,11 +32,7 @@ namespace Loan_Qualifier
                 yearsOnJob = int.Parse(yearsTextBox.Text); // 取得工作年資輸入
 
                 // 判斷是否符合貸款資格
-                if (salary < MIN_SALARY)
-                {
-                    decisionLabel.Text = "薪資不符合貸款資格。";
-                }
-                else
+                if (salary >= MIN_SALARY)
                 {
                     if (yearsOnJob >= MIN_YEARS)
                     {
@@ -46,6 +42,11 @@ namespace Loan_Qualifier
                     {
                         decisionLabel.Text = "薪資符合但是年資不符合貸款資格。";
                     }
+                    
+                }
+                else
+                {
+                    decisionLabel.Text = "薪資不符合貸款資格。";
                 }
             }
             catch (Exception ex) 
